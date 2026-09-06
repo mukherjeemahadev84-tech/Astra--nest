@@ -1,0 +1,13 @@
+import 'package:flutter/material.dart';
+
+class ReportsScreen extends StatelessWidget {
+  const ReportsScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: list past reports from backend, tap through to per-report marker detail.
+    return const SafeArea(
+      child: Center(child: Text('All uploaded reports')),
+    );
+  }
+}
